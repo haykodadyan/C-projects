@@ -97,7 +97,7 @@ int main() {
 
     printf("\nTop: %d\n", showPeak(&myCustomStack));
     printf("Popped element: %d\n", stackPop(&myCustomStack));
-    printf("New top of list: %d\n", showPeak(&myCustomStack));
+    printf("New top of stack: %d\n", showPeak(&myCustomStack));
     showStack(&myCustomStack);
 
     toFreeStack(&myCustomStack);
