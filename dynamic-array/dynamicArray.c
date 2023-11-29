@@ -19,6 +19,7 @@ void getAccesByIndex(DynamicArray *arr, char *text);
 void controller(DynamicArray *arr, int operation);
 void menu();
 void toFree(DynamicArray *arr);
+
 int main () {
 
     DynamicArray *array = createDynamicArray();
